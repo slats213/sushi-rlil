@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    margin: 10px; /* Зменшено відступи */
+    background-color: #000;
+    color: hwb(108 0% 0%);
+}
+
+h1, h2 {
+    color: #ffe600;
+    text-align: center; /* Центрування заголовків на телефоні */
+    margin-bottom: 10px; /* Зменшено відступ після заголовків */
+}
+
+.restaurant-info {
+    background-color: #000000;
+    color: #ffe600;
+    padding: 10px; /* Зменшено внутрішні відступи */
+    margin-bottom: 15px; /* Зменшено зовнішні відступи */
+    border-radius: 8px;
+    border: 1px solid #ffe600; /* Зменшено товщину рамки */
+    text-align: center;
+    font-size: 0.9em; /* Трохи менший розмір шрифту */
+}
+
+.category {
+    margin-bottom: 20px; /* Зменшено відступ між категоріями */
+    border: 1px solid #ffe600;
+    padding: 10px; /* Зменшено внутрішні відступи */
+    border-radius: 8px;
+    background-color: #000000;
+}
+
+.item {
+    border-bottom: 1px dashed hwb(108 0% 0%);
+    padding-bottom: 8px; /* Зменшено нижній відступ */
+    margin-bottom: 8px; /* Зменшено нижній відступ */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item-details {
+    flex-grow: 1;
+    margin-right: 10px; /* Додано відступ між деталями та ціною */
+}
+
+.item-name {
+    font-weight: bold;
+    margin-bottom: 3px; /* Зменшено нижній відступ */
+    color: #ffe600;
+    font-size: 1em; /* Залишено основний розмір шрифту */
+}
+
+.item-ingredients {
+    color: hwb(108 0% 0%);
+    font-size: 0.8em; /* Менший розмір шрифту для інгредієнтів */
+}
+
+.item-price {
+    font-weight: bold;
+    color: #ffe600;
+    font-size: 1em; /* Залишено основний розмір шрифту */
+    white-space: nowrap; /* Заборона перенесення ціни на новий рядок */
+}
